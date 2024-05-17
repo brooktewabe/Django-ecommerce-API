@@ -4,10 +4,11 @@
 
 Basic endpoint examples(make sure to set Auth as API Key -> Authorization: Token your_token_here )
 
-(POST) http://127.0.0.1:8000/api-token-auth/ //to login 
+(POST) http://127.0.0.1:8000/api-token-auth/ //to login to django admin
 
 {
     "username": "user",
+    
     "password": "1234"
 }
 (GET) http://127.0.0.1:8000/item/
@@ -22,6 +23,7 @@ Basic endpoint examples(make sure to set Auth as API Key -> Authorization: Token
 
 {
     "item": "1726025d-cbd7-40d8-ba06-1141bb14c7c4", //item uuid
+    
     "quantity": "1"
 }
 
@@ -29,6 +31,8 @@ Basic endpoint examples(make sure to set Auth as API Key -> Authorization: Token
 
 {
     "name": "Bobby",
+    
     "message": "test",
+    
     "email": "bobby@example.com"
 }
