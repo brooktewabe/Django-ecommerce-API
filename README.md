@@ -11,6 +11,7 @@ Basic endpoint examples(make sure to set Auth as API Key -> Authorization: Token
     
     "password": "1234"
 }
+
 (GET) http://127.0.0.1:8000/item/
 
 (GET) http://127.0.0.1:8000/item/uuid
