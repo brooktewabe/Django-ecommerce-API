@@ -1,5 +1,5 @@
 ## Django-ecommerce-API
-- Django rest framework
+- Django rest framework (DRF)
 - Token authentication 
 
 Basic endpoint examples(make sure to set Auth as API Key -> Authorization: Token your_token_here )
