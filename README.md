@@ -1,4 +1,4 @@
-## Django-ecommerce-API
+## Django ecommerce API
 - Django rest framework (DRF)
 - Token authentication 
 
